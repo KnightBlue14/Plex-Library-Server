@@ -1,5 +1,7 @@
 from plexapi.server import PlexServer
 import mysql.connector
+
+#Python file containing authorisation details for accessing the server, and the SQL database. Find these in the script, and replace for your purposes
 import plex_auth
 
 #Create a plex server object to pull data
